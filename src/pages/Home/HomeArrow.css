@@ -1,0 +1,35 @@
+.view-products {
+    transition: background-image 1s, background-size 1s;
+}
+
+.view-products a:hover {
+    text-decoration: none;
+}
+
+.view-products h4 {
+    color: #625834;
+}
+
+.view-products-arrow {
+    transition: margin-left 1s, margin-right 1s;
+}
+
+.view-products:hover {
+    background-image: url("../../util/images/sparkle.gif");
+    background-size: cover;
+}
+
+.view-products:hover .view-products-arrow {
+    margin-left: 100px;
+    margin-right: -50px;
+}
+
+.view-products img {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .view-products {
+        margin-top: 23px;
+    }
+}

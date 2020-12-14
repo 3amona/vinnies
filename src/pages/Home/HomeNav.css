@@ -1,0 +1,17 @@
+.home-nav h6 {
+    color: #625834;
+    margin-top: 20px;
+    border-radius: 7%;
+    padding: 5px;
+    border: solid 2px #DBDCE0;
+}
+
+.home-nav a:hover {
+    text-decoration: none;
+
+}
+
+.home-nav h6:hover {
+    border: solid 2px;
+    background-color: rgb(165, 145, 50, 0.2)
+}

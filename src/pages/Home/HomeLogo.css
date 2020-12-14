@@ -1,0 +1,31 @@
+.homeLogo {
+    position: relative;
+}
+
+.homeLogo-image {
+    width: 30%;
+}
+
+.homeLogo-text {
+    position: absolute;
+    top: 25%;
+    left: 14%;
+    color: #A59132;
+}
+
+.homeLogo a:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .homeLogo {
+        text-align: center;
+    }
+
+    .homeLogo-text {
+        position: absolute;
+        top: 26%;
+        left: 48%;
+    }
+    
+}

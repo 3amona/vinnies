@@ -1,0 +1,17 @@
+.homeContent {
+    width: 23rem;
+}
+
+.homeContent p {
+    color: #625834;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 2vw;
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .homeContent p {
+        margin-top: 25px;
+    }
+}
